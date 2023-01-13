@@ -1,0 +1,8 @@
+import "./Card.css";
+
+function Card(props) {
+  return (
+    <div className={"card-style " + props.className}>{props.children}</div>
+  );
+}
+export default Card;
